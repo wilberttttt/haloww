@@ -1,0 +1,22 @@
+<html>
+<head></head>
+<body>
+<div id="text"></div
+
+<script>
+var message = "Semangat ujiannya yaaaa, Goodluck 🫶🏻"
+var speed = 100;
+
+var i = 0; 
+
+function autoTyper(){
+document.getElementById("text").innerHTML += message.charAt(i);
+i++;
+
+setTimeout(autoTyper, speed);
+}
+
+autoTyper();
+</script>
+</body>
+</html>
